@@ -1,0 +1,13 @@
+max_retry: 2
+memory_enabled: false
+timeout_s: 120
+
+# Decomposition configuration
+decomposition_style: "4h_atomic"    # 4h_atomic | 8h_standard | sprint_story
+max_tasks: 50
+
+# Sprint planning
+team_velocity_points: 40
+
+# Output
+output_format: "markdown"           # Marketplace public output is Markdown
